@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Date Picker UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+        border: 5px outset red;
+        background-color: lightblue;
+        min-height: 100vh; /* full height */
+        margin: 0; /* remove default margin */
+        padding: 20px; /* spacing inside border */
+        box-sizing: border-box; /* so padding doesn’t break border */
+    }
+    .myDiv {
+        display: flex;
+        flex-direction: column;
+        /*justify-content: center;   center vertically */
+        align-items: center;      /* center horizontally */
+        min-height: 100vh;        /* full height so vertical centering works */
+    }
+    </style>
+</head>
+
+<body>
+    <div class="myDiv">
+        <h1> Static DatePicker UI </h1>
+        <p> This is a simple datepicker using html and css. <br>My plan is to implement JavaScript in it soon.</p>
+        <div class = "datepicker">
+            <div class="input-wrapper">
+                <input type="text" placeholder="dd / mm / yyyy">
+                <button class="calendar-button">📅</button>
+            </div>
+            <div class="calendar-popup">
+                <div class="calendar-header">
+                    <button class="prev-arrow">◀</button>
+                    <span class="month-year">December 2022</span>
+                    <button class="next-arrow">▶</button>
+                </div>
+                <div class="day-names">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>T</div>
+                    <div>W</div>
+                    <div>T</div>
+                    <div>F</div>
+                    <div>S</div>
+                </div>
+                <div class="date-grid">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <div>30</div>
+                    <div>31</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

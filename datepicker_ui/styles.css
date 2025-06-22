@@ -1,0 +1,68 @@
+.body {
+    border: 5px outset red;
+    background-color: lightblue;
+    min-height: 100vh; /* full height */
+    margin: 0; /* remove default margin */
+    padding: 20px; /* spacing inside border */
+    box-sizing: border-box; /* so padding doesn’t break border */
+}
+.datepicker{
+    position: relative;
+    font-family: sans-serif;
+    width: 250px;
+}
+.input-wrapper input{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 4px 8 px;
+}
+.input-wrapper{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+.calendar-popup{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 8px;
+}
+.calendar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.calendar-header button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.day-names{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 1px;
+}
+.date-grid div{
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
