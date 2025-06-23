@@ -15,6 +15,6 @@ Features
 ✅ Clicking outside closes the popup
 
 Notes
-This project was built following Roadmap.sh Datepicker UI project
+This project was built following Roadmap.sh Datepicker UI project. https://roadmap.sh/projects/datepicker-ui
 It is not yet connected to dynamic date calculations — no backend or date library (yet).
 The goal was to build a UI component as a learning exercise.
